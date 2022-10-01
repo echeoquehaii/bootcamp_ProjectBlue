@@ -1,0 +1,255 @@
+/* font-family: 'Jura', sans-serif;
+
+font-family: 'Montserrat Alternates', sans-serif;
+
+font-family: 'Orbitron', sans-serif;
+
+font-family: 'Righteous', cursive;
+
+font-family: 'Roboto', sans-serif; 
+
+Color: #1566C0
+*/
+
+
+/* HEADER */
+
+.headbkg {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0, 0, 0, 0.5) 50%, rgb(0, 0, 1) 100%), url(./media/header.jpg);
+    height: 80vh;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+.head {
+    height: 80vh;
+}
+.head1 {
+    height: 50vh;
+    margin-inline: 20px;
+}
+
+
+.headtitle {
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size:40pt
+}
+
+.headtxt {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+}
+
+
+.buttontxt {
+    padding-inline: 20px;
+    padding-block: 3px;
+    font-size: x-small;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffc106;
+    border:none;
+}
+
+.wave2 {
+    margin-top: 10px;
+}
+
+
+/* SECTION 2 */
+
+.title2 {
+    font-family: 'Righteous', cursive;
+    Color: #1566C0;
+    text-align: center;
+    width: 200px;
+}
+
+.text2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    width: 420px;
+    font-size: small;
+    
+}
+
+/* SECTION 3 */
+
+.card1 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0.233) 50%, rgba(0,0,0,1) 100%), url(./media/1.png);
+    background-size: cover;
+    height: 53vh;
+    position: relative;
+}
+
+
+.card2 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0.233) 50%, rgba(0,0,0,1) 100%), url(./media/2.png);
+    background-size: cover;
+    height: 53vh;
+    position: relative;
+}
+
+.card3 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0.233) 50%, rgba(0,0,0,1) 100%), url(./media/3.png);
+    background-size: cover;
+    height: 53vh;
+    position: relative;
+}
+
+.card4 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0.233) 50%, rgba(0,0,0,1) 100%), url(./media/4.png);
+    background-size: cover;
+    height: 53vh;
+    position: relative;
+}
+
+
+.card-icon {
+    color: white;
+    position: absolute;
+    margin-block-end: auto;
+    bottom: 65%;
+    font-size: x-large;
+}
+
+.card-title {
+    color: white;
+    font-family: 'Righteous', cursive;
+    position: absolute;
+    margin-block-end: auto;
+    bottom: 50%;
+    border-bottom: solid #ffc106;
+    width: 88%;
+}
+
+.card-text {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    bottom: 0px;
+    position: absolute;
+    padding-bottom: 15%;
+    font-size: small;
+    width: 86%;
+}
+
+
+/* SECTION 4 */
+
+.roundedbox1 {
+    border-radius: 1rem;
+    width: fit-content;
+    margin-right: 23%;
+}
+
+.titleSec4 {
+    font-family: 'Righteous', cursive;
+    Color: #1566C0;
+    margin-inline: 20px;
+    padding-top: 20px;
+}
+
+.textSec4 {
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    margin-inline: 20px;
+    padding-bottom: 20px;
+}
+
+.iconbox1 {
+    color: rgb(197, 8, 8);
+    font-size: xx-large;
+    border-radius: 1rem;
+    padding: 25px;
+}
+
+.iconbox2 {
+    color: green;
+    font-size: xx-large;
+    border-radius: 1rem;
+    padding: 25px;
+}
+
+.iconbox3 {
+    color: #ffc106;
+    font-size: xx-large;
+    border-radius: 1rem;
+    padding: 25px;
+}
+
+.iconbox4 {
+    color: #1566C0;;
+    font-size: xx-large;
+    border-radius: 1rem;
+    padding: 25px;
+}
+
+.iconbox5 {
+    color: grey;
+    font-size: xx-large;
+    border-radius: 1rem;
+    padding: 25px;
+}
+
+.iconbox6 {
+    color: black;
+    font-size: xx-large;
+    border-radius: 1rem;
+    padding: 25px;
+}
+
+
+/* SECTION 5 */
+
+.roundedbox2 {
+    border-radius: 1rem;
+    width: 230px;
+    border: solid rgb(228, 228, 228);
+    border-width: 2px;
+    height: fit-content;
+}
+
+.card5icon {
+    font-size: x-large;
+    margin-inline-start: 20px;
+    padding-top: 20px;
+    Color: #1566C0;
+}
+
+.card5title {
+    font-family: 'Righteous', cursive;
+    padding-inline-start: 20px;
+}
+
+.card5text {
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 17px;
+}
+
+.roundedbox3 {
+    border-radius: 1rem;
+    width: 270px;
+    border: solid rgb(228, 228, 228);
+    border-width: 2px;
+    height: fit-content;
+}
+
+/* SECTION 6 */
+
+.roundimg{
+    height: 280px;
+    width: 280px;
+    padding: 8px;
+    border: solid #1566C0;
+    border-radius: 50%;
+    border-width: 4px;
+}
+
+.roundedbox6 {
+    border-radius: 1rem;
+    width: fit-content;
+}
