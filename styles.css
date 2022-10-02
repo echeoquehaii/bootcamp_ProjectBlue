@@ -80,7 +80,7 @@ Color: #1566C0
 .card1 {
     background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0.233) 50%, rgba(0,0,0,1) 100%), url(./media/1.png);
     background-size: cover;
-    height: 53vh;
+    height: 38vh;
     position: relative;
 }
 
@@ -88,21 +88,21 @@ Color: #1566C0
 .card2 {
     background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0.233) 50%, rgba(0,0,0,1) 100%), url(./media/2.png);
     background-size: cover;
-    height: 53vh;
+    height: 38vh;
     position: relative;
 }
 
 .card3 {
     background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0.233) 50%, rgba(0,0,0,1) 100%), url(./media/3.png);
     background-size: cover;
-    height: 53vh;
+    height: 38vh;
     position: relative;
 }
 
 .card4 {
     background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0.233) 50%, rgba(0,0,0,1) 100%), url(./media/4.png);
     background-size: cover;
-    height: 53vh;
+    height: 38vh;
     position: relative;
 }
 
@@ -252,4 +252,109 @@ Color: #1566C0
 .roundedbox6 {
     border-radius: 1rem;
     width: fit-content;
+}
+
+
+/* SECTION 7 */
+
+.title7left {
+    font-family: 'Righteous', cursive;
+    Color: #1566C0;
+    max-width: 80%;
+}
+
+.text7left {
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    max-width: 94%;  
+}
+
+.title7right {
+    font-family: 'Righteous', cursive;
+    Color: #1566C0;
+    text-align: end;
+}
+
+.text7right {
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 30px;
+    text-align: end;
+}
+
+
+.timeline {
+    border-left: solid  #1566C0;
+    border-width: 3px;
+    position: relative;
+}
+
+.timeline::before {
+    left: -17px;
+    content: "";
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: solid  #1566C0;
+    background: white;
+    z-index: 999;
+    display: inline-block;
+    position: absolute;
+}
+
+.subBtn {
+    margin-top: 8px;
+    padding-inline: 33px;
+    padding-block: 8px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1566C0;
+    border:none;
+}
+
+/* SECTION 8 */
+
+.footer {
+    background-image: linear-gradient(rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 0.5) 50%, rgb(0, 0, 0, 0.8) 100%), url(./media/footer.jpg);
+    background-position: center;
+    height: 60vh;
+    background-repeat: no-repeat;
+}
+
+.footerbox {
+    height: 60vh;
+}
+
+.footerTitle {
+    font-family: 'Righteous', cursive;
+    Color: #ffc106;
+    margin-bottom: 0px;
+    margin-left: 50px;
+}
+
+.footerText {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    margin-left: 50px;
+    margin-right: 90px;
+    text-align: justify;
+    text-justify: inter-word;  
+}
+
+.footerTitle2 {
+    font-family: 'Righteous', cursive;
+    Color: #ffc106;
+    margin-bottom: 0px;
+    margin-left: 90px;
+}
+
+.footerIcons {
+    margin-top: 25px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    font-size: large;
+    margin-left: 90px;
+    margin-right: 50px;
 }
